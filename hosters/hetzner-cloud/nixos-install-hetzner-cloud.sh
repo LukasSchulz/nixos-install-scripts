@@ -66,7 +66,7 @@ echo '
 
   users.users.root.openssh.authorizedKeys.keys = [
     # Replace this by your SSH pubkey!
-    "ssh-rsa AAAAAAAAAAA..."
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN2SA6gC3tGLC5tsh6KN+UZ52wjPlgw5kAV2ZzHwatFS ausgeschwurbelt"
   ];
 }
 ' >> /mnt/etc/nixos/configuration.nix
